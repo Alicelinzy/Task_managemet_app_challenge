@@ -1,15 +1,14 @@
 import React from 'react';
 
-const DashboardHeader = () => {
+const Dashboard = () => {
   return (
-    <div className="flex  justify-top mb-8 p-5">
+    <div className="p-6 flex flex-col space-y-6 w-full">
+      {/* Header Section */}
       <div>
-        <h1 className="text-2xl font-semibold">Hi, Skylar Dias</h1>
-        <p className="text-gray-500">Let’s finish your task today!</p>
+        <h1 className="text-2xl font-semibold text-gray-800">Settings</h1>
       </div>
-     
-    </div>
+      </div>
   );
 };
 
-export default DashboardHeader;
+export default Dashboard;
